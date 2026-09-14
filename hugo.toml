@@ -1,0 +1,8 @@
+baseURL = 'https://nilspmueller.de/'
+locale = 'en-us'
+title = 'nilspmueller'
+theme = ["PaperMod"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
