@@ -22,7 +22,7 @@ jobs:
       TZ: Europe/Berlin
 
       # Set the Hugo base URL
-      HUGO_BASEURL: "https://nilspmueller.de"
+      HUGO_BASEURL: "https://blog.nilspmueller.de"
     steps:
       - name: Checkout
         uses: actions/checkout@v7

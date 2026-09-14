@@ -1,4 +1,4 @@
-baseURL = 'https://nilspmueller.de/'
+baseURL = 'https://blog.nilspmueller.de/'
 locale = 'en-us'
 title = 'nilspmueller'
 theme = ["PaperMod"]
