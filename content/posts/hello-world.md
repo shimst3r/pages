@@ -11,7 +11,7 @@ In the last years I have felt my curiosity slowly fading away. The everyday rout
 
 To break out of this linear approach to life, I want to do tiny experiments.
 
-Do to so I want to start with a pact:
+To do so I want to start with a pact:
 
 > I will write daily about what I have read the day before on my blog for the next 10 days.
 
