@@ -12,9 +12,9 @@ I also promised to explain what a pact is: A pact is the fundamental instrument 
 
 > I will [action] for [duration].
 
-One of the ideas of Le Cunff is that you don't need a "big purpose" in your life. She even goes as far as calling it "the Tyranny of Purpose". To be honest, I have felt this tyranny: Over the last years, I have focussed so much on finding "that one big purpose" that I have lost track of most other things. Quite ironic, given that I never finished [Breath of the Wild](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild) nor [Tears of the Kingdom](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom), despite having played both for more than 150 hours, entirely losing myself in exploration and sidequests.
+One of the ideas of [Anne-Laure Le Cunff](https://anne-laure.net) is that you don't need a "big purpose" in your life. She even goes as far as calling it "the Tyranny of Purpose". To be honest, I have felt this tyranny: Over the last years, I have focussed so much on finding "that one big purpose" that I have lost track of most other things[^1]. The author replaces the single purpose with a life full of sidequests and experimentation. As someone who feels the itch to try out new things on a weekly basis, this sounds like fun. 🥸
 
-Like most self-help authors, [Anne-Laure Le Cunff](https://anne-laure.net) came up with a clever [backronym](https://en.wikipedia.org/wiki/Backronym) for her vehicle of thought:
+Like most self-help authors, Le Cunff came up with a clever [backronym](https://en.wikipedia.org/wiki/Backronym) for her vehicle of thought:
 
 * **P**urposeful
 * **A**ctionable
@@ -29,3 +29,4 @@ Purposeful instead of a single purpose. Actionable so you can just start instead
 
 Tomorrow I will write about [The Programmer's Brain](https://www.manning.com/books/the-programmers-brain), a book I currently read in preparation of a new workshop concept. 🤓
 
+[^1]: Quite ironic, given that I never finished [Breath of the Wild](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild) nor [Tears of the Kingdom](https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom), despite having played both for more than 150 hours, entirely losing myself in exploration.
