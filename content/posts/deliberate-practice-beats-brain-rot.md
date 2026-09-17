@@ -1,6 +1,6 @@
 +++
 date = '2026-09-17T21:14:00+02:00'
-draft = true
+draft = false
 title = 'Deliberate Practice Beats Brain Rot'
 +++
 
