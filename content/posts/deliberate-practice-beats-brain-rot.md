@@ -52,9 +52,11 @@ To better understand this transition, let us take a look at [`pd.DataFrame.explo
 | 5       | eve      | python, ml, data         | Python, R, TensorFlow 	     |
 ```
 
-The easiest way to go through these phases is through *deliberate practice*. Remember school and learning new vocabulary with [flash cards](https://en.wikipedia.org/wiki/Flashcard)? That was deliberate practice! While you can of course learn programming language syntax or library function calls (which are semantic memories) through flash cards, episodic memories best form by working through problems, like implementing small variations of similar coding challenges or reading tons of source code.
+The easiest way to go through these phases is through *deliberate practice*. Remember school and learning new vocabulary with [flash cards](https://en.wikipedia.org/wiki/Flashcard)? That was deliberate practice! While you can of course learn programming language syntax or library function calls (which are semantic memories) through flash cards, episodic memories best form by working through problems, like implementing small variations of similar coding challenges or reading tons of source code. Coding dojos and [mob programming](https://en.wikipedia.org/wiki/Team_programming#Mob_programming) are particularly well suited for this and I will definitely write a blog post about my experiences with either.
 
-When it comes to reading source code, different techniques can be used to support the LTM as well. This is something I am going to write about tomorrow. 🤓
+So keep in mind that, even though you are using agentic coding for your daily work, to pursue a regimen of deliberate practice. The better your LTM is prepared for coding tasks, the better you can deal with agentic PRs.
+
+When it comes to reading source code, different techniques can be used to support the LTM in addition to deliberate practice. This is something I am going to write about tomorrow. 🤓
 
 [^1]: 🐼
 [^2]: I miss coding with [Django](https://www.djangoproject.com).
