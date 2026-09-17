@@ -31,7 +31,7 @@ So why is it that programming leads to confusion? Hermans lists three reasons:
 2. Confusion due to *Lack of information*.
 3. Confusion due to *Lack of processing power*.
 
-She associates these three types of confusion with parts of a simplified model of the cognitive processes that in action while programming:
+She associates these three types of confusion with parts of a simplified model of the cognitive processes that are in action while programming:
 
 1. The long-term memory (LTM), which stores information like a hard drive, relates to a *lack of knowledge*.
 2. The short-term memory (STM), which makes information available like the RAM or cache, relates to a *lack of information*.
@@ -39,11 +39,11 @@ She associates these three types of confusion with parts of a simplified model o
 
 During a code review, all three confusions can occur.
 
-When reading code using a programming language, framework or code libraries new to you, you can't retrieve the required knowledge from your LTM. You have to look up the relevant documentation online or in your IDE, causing a disruption in your flow[^4].
+When reading code using a programming language, framework or code library that is new to you, you can't retrieve the required knowledge from your LTM. Instead, you have to look up the relevant documentation online or in your IDE, causing a disruption in your flow[^4], adding to your cognitive load.
 
-While parsing a pull request, your STM temporarily stores keywords, variable names, data structures, and more. But your STM is very limited, with only a few slots available. How few? 7, plus/minus 2[^5]. The worse you are at chunking the program at hand, the more slots in your STM get used, the sooner you become confused.
+While parsing a pull request, your STM temporarily stores keywords, variable names, data structures, and more. Your STM is very limited, with only a few slots available. How few? 7, plus/minus 2[^5]. The worse you are at chunking the program at hand, the more slots in your STM get used, the sooner you become confused due to a lack of information.
 
-Finally, when tracing a program (trying to mentally evaluate the code in your head) to understand or debug it, you will quickly feel the urge to write something down, like the value of a variable or the contents of an array. Once you feel this urge, you are confused due to a lack of processing power.
+Finally, when tracing a program (trying to mentally execute the code in your head) to understand or debug it, you will quickly feel the urge to write something down, like the value of a variable or the contents of an array. Once you feel this urge, you are confused due to a lack of processing power.
 
 With agentic coding, you will be confused sooner and more thoroughly.
 
