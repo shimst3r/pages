@@ -37,6 +37,21 @@ Each type of memory requires different ways of training:
 	2. Continuing with the *associative phase*, patterns emerge from those subtasks and make the information easier to grasp.
 	3. Finally, in the *autonomous phase*, the learner has mastered the information and understands the information as a whole.
 
+To better understand this transition, let us take a look at [`pd.DataFrame.explode()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.explode.html):
+
+1. In the cognitive phase, you take a look at the documentation and think "Whenever I have a column of lists, I can use `explode()` to turn each item into its separate row".
+2. In the associative phase, you realise it is similar to the [`UNNEST` operator](https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax#unnest_operator) in some SQL dialects.
+3. In the autonomous phase, when having to count the number of people knowing Python in this table, you would immediately think "hey, this calls for `explode()`!":
+```markdown
+| user_id | username | tags                     | skills                         |
+|---------|----------|--------------------------|--------------------------------|
+| 1       | alice    | python, data, opensource | Python, SQL, Pandas            |
+| 2       | bob      | rust, systems            | Rust, C++ 					 |
+| 3       | carol    | python, web, data        | Python, JavaScript, PostgreSQL |
+| 4       | david    | devops, kubernetes       | Go, Bash, Kubernetes 			 |
+| 5       | eve      | python, ml, data         | Python, R, TensorFlow 	     |
+```
+
 The easiest way to go through these phases is through *deliberate practice*. Remember school and learning new vocabulary with [flash cards](https://en.wikipedia.org/wiki/Flashcard)? That was deliberate practice! While you can of course learn programming language syntax or library function calls (which are semantic memories) through flash cards, episodic memories best form by working through problems, like implementing small variations of similar coding challenges or reading tons of source code.
 
 When it comes to reading source code, different techniques can be used to support the LTM as well. This is something I am going to write about tomorrow. 🤓
