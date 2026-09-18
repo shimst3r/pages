@@ -24,17 +24,17 @@ async def fetch_records_and_update_metadata(mongo_client, records):
 
 So how did I delete all records? You guessed right, I forgot to uncomment the line that made sure to only delete archived employees.
 
-Why did I miss this? Well, for one, [async programming](https://docs.python.org/3/library/asyncio.html) in Python was new to me. So was [MongoDB](https://www.mongodb.com/docs/drivers/motor/). I had to keep a lot of concepts in mind. In addition, the code base was quite long and especially the `mongo_client` a blackbox.
+Why did I miss this? Well, for one, [async programming](https://docs.python.org/3/library/asyncio.html) in Python was new to me. So was [MongoDB](https://www.mongodb.com/docs/drivers/motor/). I had to keep a lot of concepts in mind. In addition, the code base was quite large and especially the `mongo_client` implementation a blackbox.
 
 Looking at [my post about confusion in programming]({{% ref "./confusion-is-part-of-programming.md" %}}), I was confused due to all 3 reasons mentioned, but mostly because of a  *lack of information*: My short-term memory (STM) ran out of slots, so it had to eject the commented line.
 
-Since we only have 5 to 9 slots available, we need to find ways to support the STM. The most important tool to do so is code [chunking](https://en.wikipedia.org/wiki/Chunking_(psychology)): Grouping statements or lines in your code to ease reading and comprehending it.
+Since we only have 5 to 9 slots available, we need to find ways to support the STM. The most important tool to do so is [code chunking](https://en.wikipedia.org/wiki/Chunking_(psychology)): Grouping statements or lines in your code to ease reading and comprehending it.
 
-There are ways to make chunking easier when writing the code as well:
+There are methods to make chunking easier when writing code:
 
 1. Use [software design patterns](https://en.wikipedia.org/wiki/Software_design_pattern) because they allow for repeatable code.
 2. Write comments to mark important parts of the code.
-3. Leave beacons in your code: In addition to comments, beacons are signifiers in your code that make it easier to understand functionality. This can be the consistent naming of loop variables or idiomatic variable names (like `root` or `child` when using a tree-based datastructure):
+3. Leave beacons in your code: In addition to comments, beacons are signifiers in your code that make it easier to understand functionality. This can be the consistent naming of loop variables or idiomatic variable identifiers (like `root` or `child` when using a tree-based datastructure):
 
 ```python
 def execute(obj):
@@ -51,13 +51,15 @@ def traverse(node):
 
 A lot easier to chunk with beacons, right? 🤓
 
-If you use those or not, you still have to *practice chunking* if you want to support your STM. How could this practice look like?
+If you use these methods or not, you still have to *practice chunking* if you want to support your STM. How could this practice look like?
 
 1. Choose a code repository you are familiar with, for example your current project.
 2. Select a class, function or method with less than 50 lines of code.
 3. Study the code for 2 minutes.
 4. Now recreate the code digitally or analog.
 5. Compare and reflect! What was easy to recreate, was there something you could recreate partially, does the difficult to recreate code contain unknown concepts?
+
+Actively thinking about the code will improve *retrieval strength* and as mentioned in [my post on deliberate practice]({{% ref "./deliberate-practice-beats-brain-rot.md" %}}), this is a great exercise for your *episodic memory*.
 
 If you have coworkers, do this exercise together. Discuss your findings. Adapt how you write code and if you want to introduce beacons, comments or design patterns.
 
