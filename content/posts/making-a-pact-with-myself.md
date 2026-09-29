@@ -6,7 +6,7 @@ title = 'Making a Pact With Myself'
 
 In [my first blog post ]({{% ref "./hello-world.md" %}}), I made a pact with myself:
 
-> I will write daily about what I have read the day before on my blog for the next 10 days.
+> I will write daily about what I have read the day before on my blog for the next 5 days.
 
 I also promised to explain what a pact is: A pact is the fundamental instrument of [Tiny Experiments](https://nesslabs.com/book), the book I am currently reading. It is "a simple and repeatable activity", meant to enable experimentation. Its template fits into a single sentence:
 

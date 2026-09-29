@@ -13,7 +13,7 @@ To break out of this linear approach to life, I want to do tiny experiments.
 
 To do so I want to start with a pact:
 
-> I will write daily about what I have read the day before on my blog for the next 10 days.
+> I will write daily about what I have read the day before on my blog for the next 5 days.
 
 The first post will be about Le Cunff's definition of a pact so you actually understand what I am writing about.
 
