@@ -1,6 +1,6 @@
 +++
 date = '2026-10-05T11:52:25+02:00'
-draft = true
+draft = false
 title = 'Übergänge I'
 +++
 
